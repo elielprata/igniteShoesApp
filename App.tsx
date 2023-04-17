@@ -16,7 +16,7 @@ import { tagUserInfoCreate } from './src/notifications/notificationsTags'
 import { CartContextProvider } from './src/contexts/CartContext'
 import { useEffect } from 'react'
 
-OneSignal.setAppId('c130e86d-2ab9-4ba6-ad1e-9c59f13bce1d')
+OneSignal.setAppId('')
 
 OneSignal.promptForPushNotificationsWithUserResponse()
 
